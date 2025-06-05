@@ -1,0 +1,22 @@
+.analyzeData{
+    height: 80vh;
+    overflow: scroll;
+}
+.table{
+    border-collapse: collapse;
+}
+.table thead tr th{
+    background-color: var(--color-second);
+    color: var(--color-white);
+    padding: 1rem;
+    border-right: 0.1rem solid var(--color-white);
+}
+.table tbody tr td{
+    background-color: var(--color-white);
+    color: var(--color-second);
+    text-align: center;
+    padding: 1rem;
+    border-right: 0.1rem solid var(--color-second);
+    border-bottom: 0.1rem solid var(--color-second);
+
+}

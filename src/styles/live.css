@@ -1,0 +1,45 @@
+.speedBox{
+    height: 90vh;
+}
+.menu_live{
+    height: 10vh;
+}
+.speddin{
+    background-color: var(--color-second);
+    height: 80vh;
+}
+.desBox{
+    height: 30vh;
+    width: 30vh;
+    border-radius: 10rem;
+    border: none;
+    font-family: 'Montserrat';
+    font-size: 4rem;
+    font-weight: 700;
+    color: var(--color-second);
+    box-shadow: 0 0 0.5rem var(--color-white);
+    animation: box 2s infinite  ;
+    cursor: pointer;
+}
+@keyframes box{
+    0%{
+        outline: 4rem solid #ffffff46;
+        
+    }
+    25%{
+        outline: 2rem solid #ffffff46;
+
+    }
+    50%{
+        outline: 4rem solid #ffffff46;
+
+    }
+    75%{
+        outline: 2rem solid #ffffff46;
+
+    }
+    100%{
+        outline: 4rem solid #ffffff46;
+
+    }
+}

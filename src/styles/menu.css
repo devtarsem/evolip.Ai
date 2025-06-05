@@ -1,0 +1,26 @@
+.menu{
+    height: 10vh;
+    width: 100%;
+    border-top: 0.05rem solid #e7e7e7;
+    background-color: var(--color-white) !important;
+}
+.icon{
+    width:30%;
+    fill: #000000a2;
+}
+.iconActive{
+    fill: var(--color-second) !important;
+}
+.icondata{
+    width: 38%;
+}
+.menulink{
+    text-decoration: none;
+    color: #000000a2;
+}
+.menuLinkAct{
+    color: var(--color-second);
+    background-color: #27548a43;
+    border-radius: 0.5rem;
+    padding: 0.2rem;
+}

@@ -1,0 +1,89 @@
+.main{
+    width: 100%;
+    height: 100vh;
+    background-color: #f7f7f7;
+}
+.top{
+    height: 10vh;
+    width: 100%;
+}
+.mid{
+    height: 80vh;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.menu_{
+    height: 10vh;
+}
+.headmini{
+    font-size: 1.6rem !important;
+    color: var(--color-second);
+    text-align: start;
+}
+.mid1,.mid2{
+    height: 35vh;
+    background-color: var(--color-white);
+    border-radius: 0.5rem;
+    box-shadow: 0 0 0.15rem var(--color-second-light);
+}
+.drive{
+    color: var(--color-second);
+    font-size: 1.4rem;
+}
+.gotodrive{
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+    background-color: var(--color-second);
+    border-radius: 0.5rem;
+    color: var(--color-white);
+    font-size: 1.4rem;
+    text-decoration: none;
+}
+.streak{
+    height: 100%;
+    width: 100%;
+}
+.counter,.others{
+    grid-column: 1/2;
+    width: 100%;
+    height: 100%;
+}
+.others{
+    grid-column: 2/5;
+}
+.counter{
+    border-radius: 10rem;
+    background-color: var(--color-second);
+    height: 13.5vh;
+    width: 13.5vh;
+
+}
+.inner{
+    background-color: var(--color-white);
+    height: 8.5vh;
+    width: 8.5vh;
+    border-radius: 10rem;
+}
+.count{
+    font-size: 2.4rem;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    color: var(--color-second);
+}
+.others{
+    background-color: var(--color-second);
+    border-radius: 0.5rem;
+}
+.ct{
+    font-size: 1.2rem;
+    text-align: center;
+    line-height: 1.2;
+    color: var(--color-white);
+}
+.ctnum{
+    background-color: var(--color-white);
+    color: var(--color-second);
+    padding: 0.5rem;
+    border-radius: 0.2rem;
+}
