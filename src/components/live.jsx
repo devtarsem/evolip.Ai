@@ -1,5 +1,5 @@
 import './../styles/live.css'
-import './../util/util.css'
+import './../util.css'
 import Menu from './menu'
 import CompNav from './company_nav'
 import { useState } from 'react'
