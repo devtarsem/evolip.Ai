@@ -1,4 +1,4 @@
-import './../util/util.css'
+import './../util.css'
 
 function CompNav(){
     return(
