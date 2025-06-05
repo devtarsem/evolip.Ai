@@ -4,7 +4,7 @@ const GOOGLE_KEY = ''
 const WEATHER = ''
 // import TrainingLoader from "../neural_nets_training/nets.training"
 import './../styles/home.css'
-import './../util/util.css'
+import './../util.css'
 import { Link } from "react-router"
 
 
