@@ -1,5 +1,5 @@
 import './../styles/auth.css'
-import './../util/util.css'
+import './../util.css'
 import { Link } from 'react-router';
 import CompNav from './company_nav';
 
