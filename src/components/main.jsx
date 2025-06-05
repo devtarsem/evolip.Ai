@@ -1,5 +1,5 @@
 import './../styles/main.css'
-import './../util/util.css'
+import './../util.css'
 import CompNav from './company_nav'
 import Menu from './menu'
 import { Link } from 'react-router'
